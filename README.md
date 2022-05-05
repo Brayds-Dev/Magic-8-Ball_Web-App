@@ -1,2 +1,4 @@
-# Magic-8-Ball_Web-App
-Small web app project using JavaScript
+## Magic 8 Ball App
+
+Small interactive web app project using JavaScript
+App consists of event listners, handlers, and DOM manipulation
