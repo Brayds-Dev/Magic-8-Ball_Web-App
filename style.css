@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 80%;
+}
+
+.dark-mode {
+  background-color: #181718;
+  color: rgb(218, 213, 223);
+}
+
+header {
+  position: relative;
+  border-bottom: 6px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+header h1 {
+  font-size: 6rem;
+  font-family: "Tangerine", cursive;
+}
+
+.dark-toggle {
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.dark-toggle img {
+  height: 2.2rem;
+  width: auto;
+  margin-right: 1.5rem;
+}
+
+.dark-toggle img:hover {
+  transform: rotate(-20deg);
+}
+
+.dark-toggle span {
+  width: auto;
+  font-size: 1.3rem;
+  font-family: "roboto", sans-serif;
+  margin-top: 0.4rem;
+  margin-right: 1.3rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  display: inherit;
+  flex-wrap: wrap;
+  justify-content: inherit;
+  border-style: outset;
+  width: 80%;
+  height: auto;
+  margin-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.image-div {
+  width: 40%;
+  display: inherit;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.magic-ball img {
+  height: 6rem;
+  width: auto;
+}
+
+.magic-ball img:hover {
+  transform: rotate(-15deg);
+}
+
+.instruction {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Allison", cursive;
+}
+
+.user-question {
+  width: 100%;
+  display: inherit;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-question section {
+  width: 60%;
+  display: inherit;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input {
+  width: 80%;
+  height: 30%;
+  margin: 2rem;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+button {
+  width: 40%;
+  height: 30%;
+  font-size: 2rem;
+  font-family: "Marck Script", cursive;
+}
+
+@media screen and (max-width: 800px) {
+  .magic-ball img {
+    height: 5rem;
+    width: auto;
+  }
+
+  .instruction {
+    font-size: 2rem;
+  }
+
+  input {
+    font-size: 1rem;
+    width: 60%;
+    height: auto;
+  }
+
+  button {
+    font-size: 1.2rem;
+    width: 50%;
+    height: auto;
+  }
+}
